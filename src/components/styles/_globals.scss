@@ -1,0 +1,17 @@
+$font-text: 'Montserrat', sans-serif;
+$color-botones-hover: #FF00BF;
+$color-fondo-footer: #333447;
+$color-titulo-formulario: #352384;
+$color-texto-formulario: #728099;
+$color-gradiente-morado: linear-gradient(#76278F, #2B1E66);
+
+html {
+  font-size: 62.5%;
+  font-family: $font-text;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
