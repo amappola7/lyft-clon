@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import { Header } from './components/Header.jsx';
-import { Info } from './components/Info.jsx';
-import { Videos} from './components/Videos.jsx';
+// import { Header } from './components/Header.jsx';
+// import { Info } from './components/Info.jsx';
+// import { Videos} from './components/Videos.jsx';
 import { Footer} from './components/Footer.jsx';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-
+      <Footer />
     </div>
   )
 }

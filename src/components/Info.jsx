@@ -1,10 +1,10 @@
-import React from "react";
-import './styles/Info.scss'
+// import React from "react";
+// import './styles/Info.scss'
 
-function Info() {
-  return (
+// function Info() {
+//   return (
 
-  )
-}
+//   )
+// }
 
-export {Info };
+// export {Info };
