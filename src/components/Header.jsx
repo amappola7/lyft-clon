@@ -1,9 +1,10 @@
-import React from "react";
-import './styles/Header.scss'
+// import React from "react";
+// import './styles/Header.scss'
 
 function Header() {
   return (
     <div></div>
+    
 
   )
 }

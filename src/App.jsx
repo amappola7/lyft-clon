@@ -16,7 +16,9 @@ function App() {
 
       <Videos styleVideo='videosSection' video="https://www.youtube.com/embed/Z77bvaf7mCQ" title='A GOOD THING GOING' message={`Launching on TV and online, "Ride on the Bright Side" shows how Lyft continues to prioritize happy drivers, short ETAs, and safety.`} />
 
-    </div >
+    
+      <Footer />
+    </div>
   )
 }
 

@@ -26,4 +26,4 @@ function Videos(props) {
   )
 }
 
-export { Videos };
+ export { Videos };
