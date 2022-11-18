@@ -1,0 +1,42 @@
+@use 'globals';
+
+.videosSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.videosSectionReverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.videos-box {
+  display: flex;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  font-family: globals.$font-text;
+}
+
+p {
+  font-weight: 600;
+}
+
+.firstTitle {
+  margin-bottom: 0;
+}
+
+.secondTitle {
+  margin-top: 0;
+}
+
+.message {
+  margin-top: 0;
+}

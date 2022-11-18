@@ -3,6 +3,7 @@ import './styles/Info.scss'
 
 function Info() {
   return (
+    <div></div>
 
   )
 }
