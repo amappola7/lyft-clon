@@ -11,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Info />
       <Videos styleVideo='videosSection' video="https://www.youtube.com/embed/fLSmUWOYpKw" title='AMPLIFY YOUR RIDE' message={`Lift's new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide, the device makes it easy for passengers and drivers to find each other. `} />
 
       <Videos styleVideo='videosSectionReverse' video="https://www.youtube.com/embed/V7j8Aqxmbs8" title='JUNE' message={`In an animated short film by Academy Award-winner John Kahrs, a lonely widow in historic South Chicago is empowered to start sharing the ride - and sharing her life, too.`} />
