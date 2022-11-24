@@ -6,8 +6,6 @@ import { Videos } from './components/Videos.jsx';
 import { Footer } from './components/Footer.jsx';
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <div className="App">
       <Header />

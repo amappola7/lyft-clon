@@ -13,8 +13,8 @@ function Videos(props) {
 
       <div className="videos-box">
         <iframe
-          width="560"
-          height="315"
+          width="1000"
+          height="500"
           src={props.video}
           title="Youtube Player"
           frameborder="0"
@@ -26,4 +26,4 @@ function Videos(props) {
   )
 }
 
- export { Videos };
+export { Videos };
