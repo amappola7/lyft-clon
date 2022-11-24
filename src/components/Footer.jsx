@@ -3,7 +3,7 @@ import './styles/Footer.scss'
 
 function Footer() {
   return (
-
+    <Footer />
   )
 }
 

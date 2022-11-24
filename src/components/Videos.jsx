@@ -3,7 +3,7 @@ import './styles/Videos.scss'
 
 function Videos() {
   return (
-
+    <section />
   )
 }
 

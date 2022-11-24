@@ -3,7 +3,7 @@ import './styles/Info.scss'
 
 function Info() {
   return (
-
+    <section />
   )
 }
 
