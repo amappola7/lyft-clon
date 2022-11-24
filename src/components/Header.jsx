@@ -14,13 +14,17 @@ function Header() {
         </ul>
       </nav>
       <article>
-        <h1>TURN MILES <br /> INTO MONEY</h1>
-        <h2>SIGN UP TO DRIVE WITH LYFT</h2>
+        <div className="title">
+          <h1>TURN MILES <br /> INTO MONEY</h1>
+          <h2>SIGN UP TO DRIVE WITH LYFT</h2>
+        </div>
         <form action="">
-          <input type="number" />
-          <button type="submit">Become a driver</button>
+          <input type="number"  placeholder="Phone number" />
+          <div className="form-buttons">
+            <button type="submit">Become a driver</button>
+            <a href="#">Sign up to ride</a>
+          </div>
         </form>
-        <a href="#">Sign up to ride</a>
         <p>Already applied? Check the status  of your application here.</p>
         <p>Earn money for inviting friends to drive. Learn more.</p>
       </article>

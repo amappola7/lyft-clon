@@ -1,10 +1,10 @@
 @use 'globals';
 
 header {
-  width: 100vw;
+  // width: 100vw;
   max-width: 100vw;
   height: 80vh;
-  max-height: 80vh;
+  // max-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -27,9 +27,9 @@ nav {
   }
 
   ul {
-    width: 100%;
+    width: 40%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     gap: 6rem;
     color: #ffffff;
@@ -51,14 +51,79 @@ nav {
 article {
   width: 32%;
   height: 100%;
-  padding: 5rem 0 5rem 5rem;
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   background-color: #FFFFFF;
 
+  .title {
+    margin-bottom: 3rem;
+  }
+
   h1 {
-    color: globals.$color-titulo-formulario
+    margin: 0;
+    color: globals.$color-titulo-formulario;
+    font-size: 4rem;
+    letter-spacing: -0.1rem;
+    font-weight: 600;
+    line-height: 4rem;
   }
 
   h2 {
-    color: globals.$color-titulo-formulario
+    margin: 0;
+    margin-top: 2rem;
+    color: globals.$color-titulo-formulario;
+    font-size: 1.8rem;
+    letter-spacing: -0.15rem;
+    font-weight: 600;
+  }
+
+  form {
+    width: 100%;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+
+    input {
+      margin-bottom: 3.5rem;
+      border: none;
+      border-bottom: solid 0.1rem globals.$color-titulo-formulario ;
+      background-color: transparent;
+      outline: none;
+    }
+
+    input::placeholder {
+      color: globals.$color-texto-formulario;
+      font-family: globals.$font-text;
+      font-size: 1.1rem;
+    }
+
+    button {
+      width: 28%;
+      height: 4.2rem;
+      margin-right: 2rem;
+      color: white;
+      font-family: globals.$font-text;
+      background-color: globals.$color-botones-hover;
+      border: none;
+      border-radius: 0.5rem;
+      font-weight: 100;
+      font-size: 1.2rem;
+    }
+
+    a {
+      color: globals.$color-texto-formulario;
+      font-size: 1.2rem;
+    }
+  }
+
+  p {
+    color: globals.$color-texto-formulario;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 0.3rem;
   }
 }
